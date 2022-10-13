@@ -1,0 +1,56 @@
+mkdir demo
+cd demo
+python -V  =====>Python 3.8.10
+sudo apt install python3-venv
+python3.8 -m venv demo_env
+source demo_env/bin/activate  ===>{cd demo_env  ,cd bin ,activate}
+pip install django
+django-admin --version
+django-admin startproject demoproject ⇒ To create Project
+cd demoproject
+python manage.py runserver
+
+python manage.py startapp demoapp ⇒ To create app
+
+
+
+=============================
+1)python -m venv myproject
+2)(conda deactivate)-optional -if in base
+3)source myproject/bin/activate
+4)python -m pip install Django
+5)django-admin startproject projectname
+6)cd projectname
+7)python manage.py runserver
+8)python manage.py startapp appname
+
+=============================
+python --version
+ 
+
+python -m venv myproject
+ 
+source myproject/bin/activate
+
+ 
+python -m pip install Django
+
+
+python --version
+django-admin --version
+python -m django --version
+
+
+To create project
+django-admin startproject myworld
+ 
+=======================
+
+Run the Django Project
+Navigate to the /myworld folder and execute this command in the command prompt:
+python manage.py runserver
+
+python manage.py startapp members
+ 
+python manage.py shell
+ 
